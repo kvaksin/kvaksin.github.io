@@ -18,8 +18,8 @@ Last modified: Tue, 6 Aug 2024
 | [Configure Post Interaction Digital Survey](#configure-post-interaction-digital-survey)                                | Practical Lab      | EASY             | 10 min           |
 | [Customer Journey Data Services (JDS) Introduction](#customer-journey-data-services-cjds)                              | Watch & Understand | EASY             | N/A              |
 | [JDS Feature Overview](#jds-feature-overview)                                                                          | Watch & Understand | EASY             | 10 min           |
-| [Setup JDS](#setup-jds)                                                                                                | Practical Lab      | EASY             | N/A              |
-| [Desktop Customer Journey Widget](#desktop-customer-journey-widget)                                                    | Practical Lab      | EASY             | 30 min           |
+| [Provision JDS](#provision-jds)                                                                                                | Practical Lab      | EASY             | N/A              |
+| [Setup Desktop Customer Journey Widget](#setup-desktop-customer-journey-widget)                                                    | Practical Lab      | EASY             | 30 min           |
 | [JDS APIs](#jds-apis)                                                                                                  | Practical Lab      | MEDIUM           | 40 min           |
 | [JDS Use Case Samples](#jds-use-case-samples)                                                                          | Practical Lab      | MEDIUM           | 60 min           |
 
@@ -266,22 +266,37 @@ CJDS is an API-first service that enables organizations to:
 
 A comprehensive summary of the feature is available in the [Developer Portal](https://developer.webex-cx.com/documentation/guides/journey---getting-started), where you can find all the vital information & step-by-step guide to enable JDS for the first time in your own tenant.
 
-> CJDS is currently in `Limited Availability` for **US and EMEA based tenants** only. Rest of the regions (ANZ, Canada, Japan, Singapore) are expected to come within the year.
-> {: .block-warning }
 
-## Setup JDS
 
-1. You need to fill out this [form](https://app.smartsheet.com/b/form/7776df72239e47d0bbb73a392e32927f) to get CJDS enabled, as it **not** by default enabled in all tenants in the Limited Availability regions. If applicable, please work together with your CSM to ensure a smooth process and enablement.Post the initial request, the Cisco team will assist you with CJDS instance setup within 72 hours
+## Provision JDS 
+
+1. `Fill out` this [form](https://app.smartsheet.com/b/form/7776df72239e47d0bbb73a392e32927f) to have CJDS provisioned for your tenant enabled, as it **not**  enabled by default . If applicable, please work together with your CSM to ensure a smooth process and enablement.Post the initial request, the Cisco team will provision the CJDS instance  within 72 hours
 
 2. When JDS is provisioned for the tenant, `Customer Journey Data` tab appears in the Control Hub
 
-![jdschtab](/assets/images/JDS/jds_ch_tab.png)
+3. You can set how long to retain data that's captured for CJDS. We recommend that you keep a minimum of 180 days to make sure that there are sufficient end-user journey data. By default, data is retained for 365 days
 
-## Desktop Customer Journey Widget
+   a. Sign in to Control Hub and go to `Customer Journey Data` > `Settings`
+
+   b. Enter the **number of days** that you want to retain data in CJDS
+
+4. Click `Save`
+
+![jdsprov](/assets/images/JDS/Provision_JDS.gif)
+
+
+> `Note:` JDS is already provisioned in this lab tenant.You may follow the above steps when provisioning for your tenant.
+> 
+
+
+## Setup Desktop Customer Journey Widget
 
 The customer Journey widget provides a single pane of glass view to the customer’s journey across all channels and applications, giving you the necessary contextual data for a more personalized customer experience and reducing average handling time.
 
 ### Create a journey project and Activate Webex Contact Center connector
+
+`Journey projects` help organizations manage multiple data sources. Each journey project has a unique identifier which is required to leverage CJDS APIs payloads. Note that `project IDs` in Control Hub are referred to as `workspace IDs` in APIs.
+Jouney project may be activated with the  `Webex Contact Center connector` This allows the journey project to capture all customer events and send it to CJDS from Contact Center. Once the connector is activated in one project, it cannot be activated in another. At any point in time, it can be enabled for only one project
 
 1. Sign in to **Control Hub** and go to `Customer Journey Data > Journey projects`.
 
@@ -289,42 +304,52 @@ The customer Journey widget provides a single pane of glass view to the customer
 
 3. Enter a **name** and a **description** for the journey project.
 
-4. Select the journey project that you created in previous step.
+4. Select the `journey project` that you created in previous step.
 
 5. Toggle the `Activate` connector in the Webex Contact Center section to on.
 
-![jdsactivateproject](/assets/images/JDS/jds_activate_project.png)
+![jdsactivateconnector](/assets/images/JDS/jds_activate_connector.gif)
 
 ### Add user identities to a journey project.
 
-1. Select the journey project for which connector was activated.
+1. Select the `journey project` for which connector was activated.
 
 2. Select `Identities`. Click on `Add identities`.
 
-   ![jdsaddidentities](/assets/images/JDS/jds_add_identities.png)
-
 3. Download the sample template.
 
-   ![uploadcsvjds](/assets/images/JDS/upload_csv_jds.png)
-
 4. In CSV file download, add the Customer identities [First Name,Last Name,Email Addresses,Phone Numbers,Customers Ids].
-
    Each customer identity must have **at least** an email address, phone number, or customer ID or else the CSV file will return an error.
    If you want to add **multiple** email addresses, phone numbers or customer IDs, you need to **use the pipe “|” delimiter** between them. For example, try to add your phone number both with and without a plus sign
 
    For the **Id column**, make sure to leave each row empty. When you upload the CSV file, this field will auto-generate.
 
    ![jdscreatedcsv](/assets/images/JDS/jds_created_csv.png)
-
+   
 5. Upload the **CSV file** that you created for customer identities, and then click `Next`.
 
 6. If the CSV file is valid, a window appears to show you if the import was successful. Once you're done, select `Close`. You should see a list of all the uploaded customer identities.
+
+![jdsuploadidentities](/assets/images/JDS/jds_upload_ids.gif)
 
 ### Enable customer journey widget on an agent desktop
 
 1. Download the following Desktop Layout JSON file [JDSDesktopLayout](/assets/files//JDSDesktopLayout10.json).
 
-- If you are interested in adding the CJDS Widget to your existing desktop layout in your own tenant, get below code snippet:
+2. Sign in to Control Hub and go to `Contact Center > Desktop Layouts`.
+
+3. Create a `new Layout`.
+
+4. Assign an `Agent Team`.
+
+5. Upload the Desktop Layout JSON file that you downloaded in step 1.
+
+6. Click `Save`.
+
+![jdsuploadwidget](/assets/images/JDS/jds_upload_widget.gif)
+
+> `Note:` If you are interested in adding the CJDS Widget to your existing desktop layout in your own tenant, use the below code snippet.
+> 
 
 **CJDS Widget Code Block**
 
@@ -370,32 +395,21 @@ The customer Journey widget provides a single pane of glass view to the customer
             ]
           },
 ```
-
-2. Here is a screenshot of the block in place (notice it is after `IVR_TRASNCRIPT` and before `WXM_JOURNEY_TAB`).
+ Here is a screenshot of the block in place (notice it is after `IVR_TRASNCRIPT` and before `WXM_JOURNEY_TAB`).
 
    ![JDSWidgetCode](/assets/images/JDS/JDS_Widget_Code.png)
 
-3. Sign in to Control Hub and go to `Contact Center > Desktop Layouts`.
-
-4. Create a new Layout.
-
-5. Assign an Agent Team.
-
-6. Upload the Desktop Layout JSON file that you downloaded in step 1.
-
-7. Click `Save`.
-
 ### View customer journey widget on an Agent desktop
 
-1. Login as an Agent into Agent Desktop.
+1. Login as an Agent into Agent Desktop. Ensure that `desktop layout` of Agent's Team has `JDS Widget` configured in previous steps
 
-2. On Accepting an incoming request, CJDS Widget will appear in the right hand side.
+2. On Accepting an incoming request `CJDS Widget` will appear in the desktop.
 
-The widget displays insights such as the number of times the customer has called or was contacted across all channels during a given duration. It also displays the channel history with wrap-up code, queue name, agent ID, and so on, and customizable event history such as third-party events and custom icons.
+The widget displays insights such as the number of times the customer has called or was contacted across all channels during a given duration. It also displays the journey history with `wrap-up code`, `queue name`, `agent ID`, and so on, and customizable event history such as third-party events and custom icons.
 
-The progressive profile allows for alignment of different phone numbers and emails under one profile, ensuring accurate and comprehensive interaction data.
+The `progressive profile` allows for alignment of different phone numbers and emails under one profile, ensuring accurate and comprehensive interaction data.
 
-![JDSWidgetDesktop](/assets/images/JDS/JDS_Widget_Desktop.png)
+![JDSWidgetDesktop](/assets/images/JDS/jds_desktop_widget.gif)
 
 ## JDS APIs
 
