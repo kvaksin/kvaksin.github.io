@@ -743,7 +743,7 @@ To begin with:
 
 3. Open **DEBUG** tool in the Flow Designer by clicking on **DEBUG** button and verify though which queue the 3rd call was delivered.
 
-![JDS_UseCase1_Debug](/assets/images/JDS/JDS_aUseCase1_Debug.png)
+![JDS_UseCase1_Debug](/assets/images/JDS/JDS_UseCase1_Debug.png)
 
 ### More Use Cases
 
