@@ -13,7 +13,7 @@ Welcome to the Webex Labs Repository. Here you will find step-by-step guides on 
 
 | Lab ID |                         Lab Details                         | Dificulty | Estimated |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-<!--| Lab 0  | [Provisioning (Trials & Production) ](/pages/Provisioning/) |   EASY    |  40 min   |
+<!-- | Lab 0  | [Provisioning (Trials & Production) ](/pages/Provisioning/) |   EASY    |  40 min   | -->
 | Lab 1  |               [Admin Experience](/pages/CH/)                |   EASY    |  30 min   |
 | Lab 2  |             [IVR Contact Routing](/pages/IVR/)              |    MID    |  60 min   |
 | Lab 3  |               [Agent Desktop](/pages/Agent/)                |   MID    |  55 min   |
@@ -25,7 +25,7 @@ Welcome to the Webex Labs Repository. Here you will find step-by-step guides on 
 | Lab 9  |       [Outbound Campaign - Acqueon](/pages/Acqueon2/)        |    MID    |  30 min   |
 | Lab 10 |            [QM/WFO - Calabrio](/pages/Calabrio/)            |    TBD    |  TBD  |
 | Lab 11 |                [Webex CC APIs](/pages/API/)                 |   HARD    |  90 min   |
-| Lab 12 |             [Digital Channels](/pages/Digital/)             |    MID    |  560 min  | -->
+| Lab 12 |             [Digital Channels](/pages/Digital/)             |    MID    |  560 min  |  -->
 |  1  |               [Madeira](/pages/Madeira)                |   EASY    |  30 min   |
 
 
