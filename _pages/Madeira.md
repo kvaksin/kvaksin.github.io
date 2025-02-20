@@ -1,34 +1,34 @@
 # Madeira
-## Scenic Car Views:
 
-Weather can be an important factor in your choices. Don’t rely on the conditions in Funchal. 
+## Scenic Car Views
+
+Weather can be an important factor in your choices. Don’t rely on the conditions in Funchal.
 I recommend checking this site before heading out:
 
 [http://www.netmadeira.com/webcams-madeira](http://www.netmadeira.com/webcams-madeira)
 
 There are webcams all over the island. You can see weather conditions in real-time, which is important for rain or fog. This helps avoid any surprises.
 
-## **Proposal 1:**
-**1 Day, Early Start (departure at 09:00h)**
+## **Proposal 1:** 1 Day, Early Start (departure at 09:00h)
 
 Monitor the weather along the way. If you can save time, do so. If you're running late, consider skipping a stop (for instance, in Porto Moniz, you can see the pools from the road).
 
 Leave Funchal on the expressway towards Câmara de Lobos/Ribeira Brava. Exit the expressway when you see a sign for Cabo Girão, which will be after Câmara de Lobos.
 
-1.	**Pit Stop 1** - Cabo Girão (09:30): Superb view over Câmara de Lobos and Funchal at the highest cape in Europe. The sea, seen from above, is also quite impressive.
+1. **Pit Stop 1** - Cabo Girão (09:30): Superb view over Câmara de Lobos and Funchal at the highest cape in Europe. The sea, seen from above, is also quite impressive.
 Once you're satisfied, return to the expressway and proceed towards Ribeira Brava. When you reach Ribeira Brava, turn towards Serra de Água, S. Vicente.
 On the Serra de Água road (just after leaving Ribeira Brava), look for a wooden sign on the left side of the road that says "poncha regional." There are others, but the one on the left is the best.
-2.	**Pit Stop 2** - Regional Poncha (10:30): If it's too early, buy a bottle to try later. If not, have one now, but not more, as you’ll be driving.
+2. **Pit Stop 2** - Regional Poncha (10:30): If it's too early, buy a bottle to try later. If not, have one now, but not more, as you’ll be driving.
 Continue on the road towards S. Vicente. At a certain point, you'll see a sign on the left that says Encumeada. Turn there.
 [If you see fog up ahead, it might be better to abort this mission. In that case, head for the tunnel and go directly to S. Vicente.]
 Assuming the day is as clear as it promises to be, the Encumeada road is scenic. You can stop wherever you like along the route. Suitable spots are easy to find. In my opinion, the top is a must-stop.
-3.	**Pit Stop 3** - Top of Encumeada (11:30): Top of the island's central ridge, with views of both the south and north coasts.
+3. **Pit Stop 3** - Top of Encumeada (11:30): Top of the island's central ridge, with views of both the south and north coasts.
 After taking some photos, head towards S. Vicente. Drive along the road until you reach the seaside village of S. Vicente. You'll know you've arrived when you see an old chapel built in stone, next to an ugly blue bridge.
-4.	**Pit Stop 4** - S. Vicente (12:30):
+4. **Pit Stop 4** - S. Vicente (12:30):
 It should be around lunchtime. Have a "picado" at the "azulinho" restaurant by the seaside. It’s not fantastic, but it’s generous, quick, and by the sea. If you didn’t have poncha earlier, try it here. Alternatively, if you have time, you can go to Many (see restaurants).
 After lunch, continue towards Porto Moniz. The road is scenic, with vibrant and dramatic landscapes (notably Seixal and Ribeira da Janela). I think you’ll recognize the spots worth slowing down for.
 Seixal beach offers an exceptional view, perhaps the best on the island with car access. I recommend stopping, especially if it’s sunny. Look for “Clube Naval do Seixal.”
-5.	**Pit Stop 5** - Porto Moniz (15:00):
+5. **Pit Stop 5** - Porto Moniz (15:00):
 Stop by the seaside in Porto Moniz. Try to find the heliport, where there’s a view of the entire north coast of Madeira. Take a look at the natural pools.
 After that, get in the car and head upwards. Go towards Porto Moniz Centro, then Paul da Serra and Funchal.
 If you stay on this road, you’ll have a left exit for**Paul da Serra.**
@@ -50,7 +50,8 @@ From **Poiso**, head to **Pico do Areeiro** up to the summit, where you can see 
 Especially beautiful at sunrise or early morning. The sunset is also lovely, but only go at this hour if the weather is good.
 
 ## **Proposal 3:** Funchal Tour (Eira do Serrado, Monte)
-Eira do Serrado is the Curral das Freiras seen from above. The name is ridiculous, but the site is fantastic. 
+
+Eira do Serrado is the Curral das Freiras seen from above. The name is ridiculous, but the site is fantastic.
 
 In Funchal, try to climb to Santo António, then follow the signs to the viewpoint (brown, with binoculars) to Eira do Serrado.
 
@@ -59,7 +60,7 @@ At Eira, it’s worth going to the viewpoint.
 Round trip takes about an hour to an hour and a half.
 To reach Monte, just follow a street called caminho do Comboio and keep climbing.
 
-Monte is a kind of Sintra of Funchal - where, notably, Quinta Berardo is located, Sissi recovered from bronchitis, and the last of the Habsburgs died (namely, Charles I of Austria, cousin of Archduke Franz Ferdinand, whose assassination was the trigger for World War I and inspired the name for a very pleasant band). 
+Monte is a kind of Sintra of Funchal - where, notably, Quinta Berardo is located, Sissi recovered from bronchitis, and the last of the Habsburgs died (namely, Charles I of Austria, cousin of Archduke Franz Ferdinand, whose assassination was the trigger for World War I and inspired the name for a very pleasant band).
 
 Monte has an iconic church, with a view over all of Funchal, with a sanctuary dedicated to the last Emperor (beatified in 2004 for his peacemaking role during World War I). Our Lady of Monte is the patroness of emigrants, and the parish is therefore much blessed by Venezuelan promises.
 
@@ -69,7 +70,8 @@ If you trust your heart health, you can take the cable car up and the basket car
 If you’re here by car, you can go to Quinta do Terreiro da Luta, where you have the highest view of Funchal bay.
 
 ## **Proposal 4: West Coast, Paul do Mar**
-Get in the car and tour the West Coast. Follow through Ribeira Brava, Ponta do Sol, Arco da Calheta, Calheta (here you can stop at Casa das Mudas, the museum that houses part of the Berardo collection), Jardim do Mar, Paul do Mar all the way to Ponta do Pargo. 
+
+Get in the car and tour the West Coast. Follow through Ribeira Brava, Ponta do Sol, Arco da Calheta, Calheta (here you can stop at Casa das Mudas, the museum that houses part of the Berardo collection), Jardim do Mar, Paul do Mar all the way to Ponta do Pargo.
 
 Stop whenever you feel like it. On the way back, go to Maktub Paul do Mar at 5 or 6 in the afternoon.
 Have a mojito or a Coral while the sun sets, next to the most beautiful wave in Madeira – and hence, the world.
@@ -77,14 +79,13 @@ Have a mojito or a Coral while the sun sets, next to the most beautiful wave in 
 ## **Proposal 5: Levadas**
 
 Here are my favorite levadas, in no particular order.
-(Consider doing large levadas accompanied - for route clarification, but also for safety assurance. Use this site for your guidance: http://www.walkmeguide.com/en/madeira/trails-list/ If you prefer to hire a service, I hear good things about this company: http://naturemeetings.com/)
+(Consider doing large levadas accompanied - for route clarification, but also for safety assurance. Use this site for your guidance: <http://www.walkmeguide.com/en/madeira/trails-list/> If you prefer to hire a service, I hear good things about this company: <http://naturemeetings.com/>)
 
 * Ribeiro Frio - Portela (Ribeiro Frio, in Santana): Just under an hour to get there, 3/4 hours to do. Very diverse, with springs, cliffs, caves, rocky masses, and viewpoints. Accessible and safe. iPhone flashlight is sufficient. If you have less time, try the Vereda dos Balcões, which starts at the same place but leads to a well-known viewpoint.
 * Risco or 25 Fontes (Rabaçal, Paul da Serra): Just under an hour to get there, 3 hours to do, if that. Park the car at the entrance. Descent to the levada is about 2 km, but there’s a shuttle (worth more on the way up than down).
 * Levadas known for watercourses, flowers, and forest. A bit more physically demanding, but nothing strenuous. For an easier and equally beautiful route, I recommend the Levada do Alecrim: Levada do Alecrim.
 * Caldeirão Verde (Queimadas, Santana): About 40 minutes to get there, about 4 hours to do. Tunnels, waterfalls, cliffs, and a long walk along the ridge. Not difficult, but the length of the route recommends doing it with a reasonably large group (4-5 people).
 * Ponta de São Lourenço: Eastern tip of the island. A walk that is easy to do, with views of the North and South Coast.
-
 
 ## **Proposal 6: Funchal**
 
@@ -103,9 +104,9 @@ As you might imagine, none of this is very sophisticated, and much less feminine
 
 If you have children, Lagar is better equipped to receive – playground, space, more professional service.
 
-1.	**Pastelaria Santo António**
-2.	**Ginjas**
-3.	**O Lagar**
+1. **Pastelaria Santo António**
+2. **Ginjas**
+3. **O Lagar**
 
 If you’re in a tavern mode with good food, try **“O Polar.”**
 
@@ -118,7 +119,7 @@ If you’re in a tavern mode with good food, try **“O Polar.”**
 * **Informal**: More casual sibling of Kampo. For a quick and cheaper lunch in the center of Funchal, with a fixed menu.
 * **Celeiro**: (weekday lunch): closed place, with a small porch but with great price quality. Excellent meals for less than 10€. Everything fresh and well-seasoned.
 * **Atelier Nini Andrade Silva:** Worth it for the location (molhe da pontinha, with a view over Funchal). I’ve heard good things, but with complaints about the price. Better perhaps at lunch.
-	
+
 **Tourist Zone (Funchal):**
 
 * **Casal da Penha:** One of my favorite restaurants in Funchal. Cozy place, great service, fair price (€25-30).
@@ -131,7 +132,6 @@ If you’re in a tavern mode with good food, try **“O Polar.”**
 * **Villa Ciprianni**: Excellent Italian, with one of the best views of Funchal. Quite high price.
 * **William**: One Michelin star, at Reid’s. Expensive, but a Michelin star at Reid’s.
 * **Il Gallo d'Oro**: Two Michelin stars, at Cliff Bay. Expensive, but...
-	
 
 **Outside Funchal:**
 
@@ -139,4 +139,3 @@ If you’re in a tavern mode with good food, try **“O Polar.”**
 * **Quinta do Furão (better for lunch)**: In Santana. Classic restaurant. Magnificent view and an accessible price for what it is (€30-40 p.p.). Highly recommended. Good alternative before or after doing the Levada dos Balcões, for example.
 * **Abrigo do Pastor:** On the way up to the mountains, a true farmhouse.
 * **Casa de Palha:** Beautiful restaurant of traditional Madeiran food. Located in the proverbial Boda, in São Jorge.
-
