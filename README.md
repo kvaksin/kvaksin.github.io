@@ -13,6 +13,3 @@ Welcome to Vaksin's guides.
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
 |  1  |               [Madeira](/pages/Madeira/)              |  
-
-
-
