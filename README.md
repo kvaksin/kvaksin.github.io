@@ -1,13 +1,12 @@
 ---
 layout: home
-title: 'Webex CC Lab guides'
+title: 'Vaksins guides'
 permalink: /
 cover: /assets/gitbook/images/Home.jpeg
 ---
 
 
-Welcome to the Webex Labs Repository. Here you will find step-by-step guides on how to enable and configure the Webex Contact Center features.
-
+Welcome to Vaksin's guides. 
 
 ## Lab Content
 
@@ -16,5 +15,4 @@ Welcome to the Webex Labs Repository. Here you will find step-by-step guides on 
 |  1  |               [Madeira](/pages/Madeira/)              |  
 
 
-<center><img src="/assets/gitbook/images/webex.png" width="100"></center>
 
