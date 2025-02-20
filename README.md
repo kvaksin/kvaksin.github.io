@@ -13,7 +13,7 @@ Welcome to the Webex Labs Repository. Here you will find step-by-step guides on 
 
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
-|  1  |               [Madeira](/pages/Madeira)              |  
+|  1  |               [Madeira](/pages/Madeira/)              |  
 
 
 <center><img src="/assets/gitbook/images/webex.png" width="100"></center>
