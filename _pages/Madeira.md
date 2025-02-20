@@ -103,10 +103,9 @@ As you might imagine, none of this is very sophisticated, and much less feminine
 
 If you have children, Lagar is better equipped to receive – playground, space, more professional service.
 
-1.	Pastelaria Santo António
-2.	Ginjas
-3.	O Lagar
-
+1.	**Pastelaria Santo António**
+2.	**Ginjas**
+3.	**O Lagar**
 
 If you’re in a tavern mode with good food, try **“O Polar.”**
 
