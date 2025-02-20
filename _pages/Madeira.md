@@ -1,5 +1,3 @@
-# Madeira
-
 ## Scenic Car Views
 
 Weather can be an important factor in your choices. Don’t rely on the conditions in Funchal.
