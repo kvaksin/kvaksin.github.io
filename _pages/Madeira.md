@@ -1,3 +1,9 @@
+---
+title: Madeira
+date: 2025-02-20
+layout: post
+---
+
 ## Scenic Car Views
 
 Weather can be an important factor in your choices. Don’t rely on the conditions in Funchal.
