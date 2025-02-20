@@ -1,8 +1,4 @@
----
-title: Madeira
-date: 2025-02-20
-layout: post
----
+#Madeira
 ##Scenic Car Views:
 
 Weather can be an important factor in your choices. Don’t rely on the conditions in Funchal. 
@@ -12,7 +8,7 @@ I recommend checking this site before heading out:
 
 There are webcams all over the island. You can see weather conditions in real-time, which is important for rain or fog. This helps avoid any surprises.
 
-**Proposal 1:**
+##**Proposal 1:**
 **1 Day, Early Start (departure at 09:00h)**
 
 Monitor the weather along the way. If you can save time, do so. If you're running late, consider skipping a stop (for instance, in Porto Moniz, you can see the pools from the road).
@@ -35,18 +31,13 @@ Seixal beach offers an exceptional view, perhaps the best on the island with car
 5.	**Pit Stop 5** - Porto Moniz (15:00):
 Stop by the seaside in Porto Moniz. Try to find the heliport, where there’s a view of the entire north coast of Madeira. Take a look at the natural pools.
 After that, get in the car and head upwards. Go towards Porto Moniz Centro, then Paul da Serra and Funchal.
-If you stay on this road, you’ll have a left exit for 
-
-**Paul da Serra.**
-
-Paul da Serra (16:30 onwards): Paul is generally beautiful. It might be foggy or rainy, but it’s also possible the clouds will stay below the plateau. I trust you’ll find where to stop for the views.
-It’s imperative to arrive during daylight. Pay attention, therefore, to the time (chronological).
-
-**From Paul**, descend to Canhas or Ponta do Sol (a more brake-friendly road, considering all descents are very steep). Even so, try to brake with the engine, or you’ll reach the bottom with burning discs.
+If you stay on this road, you’ll have a left exit for**Paul da Serra.**
+6. Paul da Serra (16:30 onwards): Paul is generally beautiful. It might be foggy or rainy, but it’s also possible the clouds will stay below the plateau. I trust you’ll find where to stop for the views.
+It’s imperative to arrive during daylight. Pay attention, therefore, to the time (chronological). **From Paul**, descend to **Canhas** or **Ponta do Sol** (a more brake-friendly road, considering all descents are very steep). Even so, try to brake with the engine, or you’ll reach the bottom with burning discs.
 
 **From Canhas**, it’s easy to get to Funchal. If you’re quick, consider ending the day at Maktub (see below).
 
-**Proposal 2: Pico do Areeiro** (about 2/3 hours)
+##**Proposal 2: Pico do Areeiro** (about 2/3 hours)
 
 [Check the weather before going (Madeira's nun center). It’s dangerous to drive here in rain and very cold conditions. The risk isn’t exaggerated, but caution is advised.]
 
@@ -58,7 +49,7 @@ From **Poiso**, head to **Pico do Areeiro** up to the summit, where you can see 
 
 Especially beautiful at sunrise or early morning. The sunset is also lovely, but only go at this hour if the weather is good.
 
-**Proposal 3:** Funchal Tour (Eira do Serrado, Monte)
+##**Proposal 3:** Funchal Tour (Eira do Serrado, Monte)
 Eira do Serrado is the Curral das Freiras seen from above. The name is ridiculous, but the site is fantastic. 
 
 In Funchal, try to climb to Santo António, then follow the signs to the viewpoint (brown, with binoculars) to Eira do Serrado.
@@ -77,12 +68,14 @@ Monte is for strolling, seeing the church, going to a tea house, drinking a ponc
 If you trust your heart health, you can take the cable car up and the basket car down.
 If you’re here by car, you can go to Quinta do Terreiro da Luta, where you have the highest view of Funchal bay.
 
-**Proposal 4: West Coast, Paul do Mar**
+##**Proposal 4: West Coast, Paul do Mar**
 Get in the car and tour the West Coast. Follow through Ribeira Brava, Ponta do Sol, Arco da Calheta, Calheta (here you can stop at Casa das Mudas, the museum that houses part of the Berardo collection), Jardim do Mar, Paul do Mar all the way to Ponta do Pargo. 
 
 Stop whenever you feel like it. On the way back, go to Maktub Paul do Mar at 5 or 6 in the afternoon.
 Have a mojito or a Coral while the sun sets, next to the most beautiful wave in Madeira – and hence, the world.
-Proposal 5: Levadas
+
+##**Proposal 5: Levadas**
+
 Here are my favorite levadas, in no particular order.
 (Consider doing large levadas accompanied - for route clarification, but also for safety assurance. Use this site for your guidance: http://www.walkmeguide.com/en/madeira/trails-list/ If you prefer to hire a service, I hear good things about this company: http://naturemeetings.com/)
 
@@ -93,7 +86,7 @@ Here are my favorite levadas, in no particular order.
 * Ponta de São Lourenço: Eastern tip of the island. A walk that is easy to do, with views of the North and South Coast.
 
 
-**Proposal 6: Funchal**
+##**Proposal 6: Funchal**
 
 Funchal doesn’t have major attractions. It’s beautiful in itself.
 I recommend a walk along the Central Avenue and the Old Town of the city (*************, up to the church of Santa Maria Maior).
@@ -101,7 +94,7 @@ Also, pass by the Sé Cathedral. If there’s time, the Farmers' Market, ideally
 If you’re in a more cultural spirit, visit the Museum of Sacred Art, or a Madeira wine cellar – talk to me, you can go to my mother's wine house.
 Consider a boat trip with dolphin and whale watching. This company has a good reputation: **Rota dos Cetáceos.**
 
-**Restaurants:**
+##**Restaurants:**
 
 * Espetada:
 Follow my hierarchy of espetada houses. They are all in Estreito de Câmara de Lobos. You need to exit at this exit on the expressway and keep climbing. O Lagar is just after the expressway exit, for the others, you’ll have to climb more. O Ginjas and As Vides are in the center of Estreito de Câmara de Lobos, next to each other, Pastelaria is a little further ahead.
@@ -117,7 +110,7 @@ If you have children, Lagar is better equipped to receive – playground, space,
 
 If you’re in a tavern mode with good food, try **“O Polar.”**
 
-Funchal Center:
+**Funchal Center:**
 
 * **Kampo**: Michelin star candidate restaurant in the center of Funchal, balanced refinement and unpretentious. Perhaps the best restaurant in Funchal, which only fails by not being designed for larger groups.
 * **Lá ao Fundo**: The best and most pleasant restaurant in the Old Zone, ideal for socializing with friends. In summer, try to stay outside.
