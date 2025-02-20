@@ -31,7 +31,7 @@ Seixal beach offers an exceptional view, perhaps the best on the island with car
 5. **Pit Stop 5** - Porto Moniz (15:00):
 Stop by the seaside in Porto Moniz. Try to find the heliport, where there’s a view of the entire north coast of Madeira. Take a look at the natural pools.
 After that, get in the car and head upwards. Go towards Porto Moniz Centro, then Paul da Serra and Funchal.
-If you stay on this road, you’ll have a left exit for**Paul da Serra.**
+If you stay on this road, you’ll have a left exit for **Paul da Serra.**
 6. Paul da Serra (16:30 onwards): Paul is generally beautiful. It might be foggy or rainy, but it’s also possible the clouds will stay below the plateau. I trust you’ll find where to stop for the views.
 It’s imperative to arrive during daylight. Pay attention, therefore, to the time (chronological). **From Paul**, descend to **Canhas** or **Ponta do Sol** (a more brake-friendly road, considering all descents are very steep). Even so, try to brake with the engine, or you’ll reach the bottom with burning discs.
 
