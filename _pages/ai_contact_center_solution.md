@@ -1,3 +1,8 @@
+---
+title: AI Contact Center
+date: 2025-07-11
+layout: post
+---
 
 # 🤖 AI and the Contact Center: Closing the Gap
 
