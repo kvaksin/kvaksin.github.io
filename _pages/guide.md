@@ -1,14 +1,10 @@
 ---
-layout: home
-title: 'Vaksins guides'
-permalink: /
-cover: /assets/gitbook/images/Home.jpeg
+title: Travel Guides
+date: 2025-07-11
+layout: post
 ---
 
-
-Welcome to Vaksin's guides. 
-
-## Lab Content
+## Guide Content
 
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
