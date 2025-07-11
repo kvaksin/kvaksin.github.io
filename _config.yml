@@ -1,15 +1,15 @@
 # Configurations
-title:            Labs Library
-longtitle:        Webex CC
-email:            wxcclabs@cisco.com
+title:            Vaksins Block
+longtitle:        Vaksins Block
+email:            kvaksin@outlook.com
 description: >
-  Lab Guide Library
+  Vaksins Block
 
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://webexcc.github.io'
+url:              'https://kvaksin.github.io'
 baseurl:          ''
 
 rss:              RSS
