@@ -6,7 +6,7 @@ cover: /assets/gitbook/images/Home.jpeg
 ---
 
 
-Welcome to Vaksin's guides. 
+Welcome to Vaksin's block. 
 
 ## Lab Content
 
