@@ -13,3 +13,4 @@ Welcome to Vaksin's block.
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
 |  1  |               [Travel Guides](/pages/guide)          |  
+|  2  |               [Contact Center Articles](/pages/CC)   |  
