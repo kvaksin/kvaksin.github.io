@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Vaksins block'
+title: 'Vaksins guides'
 permalink: /
 cover: /assets/gitbook/images/Home.jpeg
 ---
@@ -12,4 +12,4 @@ Welcome to Vaksin's guides.
 
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
-|  1  |               [Travel Guides](/pages/guide)              |  
+|  1  |               [Madeira](/pages/Madeira)              |  
