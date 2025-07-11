@@ -12,4 +12,4 @@ Welcome to Vaksin's guides.
 
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
-|  1  |               [Travel Guides](/pages/guide)              |  
+|  1  |               [Travel Guides](/pages/guide)          |  
