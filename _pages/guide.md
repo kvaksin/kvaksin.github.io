@@ -9,3 +9,4 @@ layout: post
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
 |  1  |               [Madeira](/pages/Madeira)              |  
+|  2  |               [Etretat](/pages/Etretat)              | 
