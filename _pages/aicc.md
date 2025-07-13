@@ -22,7 +22,9 @@ Well… yes and no.
 
 Yes, you will **always be behind** if you rely solely on static, open-source models that are outdated the moment you install them.
 
-But **no**, you’re not completely stuck. You can build your own solution — and it doesn’t have to be rocket science.
+But **no**, you're not entirely stuck. You can build your own solution — and it doesn’t require rocket science.
+
+
 
 ## 🎧 Transcribe & Analyze Calls with Your Own LLM
 
@@ -79,11 +81,20 @@ Call Recording Service ──► Webhook Endpoint
 
 #### ⬇ Step 2: Download the Audio
 
-* Save the file to `downloads/abc123.mp3`
+* Save the file as `downloads/abc123.mp3`
 
 #### 🧠 Step 3: Transcription & Language Detection
 
-* Whisper automatically identifies language and returns plain text.
+* Whisper automatically detects the language and returns plain text transcription.
+
+#### 📚 Step 4: Summarize, Translate & Analyze
+Use a local LLM (e.g. via Ollama) to:
+
+Summarize the transcript
+
+Detect topic and emotional tone
+
+Translate if the language isn’t English
 
 #### 📤 Step 5: Send to CRM
 
@@ -105,7 +116,7 @@ Call Recording Service ──► Webhook Endpoint
 ## 🧾 Sample Implementation with Multilingual & Emotional Analysis
 
 ```python
-{
+
 from flask import Flask, request, jsonify
 import requests
 import whisper
@@ -128,14 +139,10 @@ def download_audio(url, call_id):
         f.write(r.content)
     return path
 
-def run_llm_analysis(transcript, language):
-    prompt = f"""
-You are an AI contact center assistant. Analyze the call transcript.
+prompt = f"""
+You are an AI contact center assistant. Analyze the call transcript below.
 
-Transcript:
-"""
-{transcript}
-"""
+Transcript:{transcript}
 
 Return JSON with:
 - summary: 3 bullet points
@@ -202,8 +209,6 @@ def webhook():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
-
-}
 ```
 
 
