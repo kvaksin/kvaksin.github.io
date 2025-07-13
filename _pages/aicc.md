@@ -116,7 +116,6 @@ Translate if the language isn’t English
 ## 🧾 Sample Implementation with Multilingual & Emotional Analysis
 
 ```python
-
 from flask import Flask, request, jsonify
 import requests
 import whisper
@@ -135,16 +134,19 @@ os.makedirs("downloads", exist_ok=True)
 def download_audio(url, call_id):
     path = f"downloads/{call_id}.mp3"
     r = requests.get(url)
+    r.raise_for_status()
     with open(path, "wb") as f:
         f.write(r.content)
     return path
 
-prompt = f"""
+def run_llm_analysis(transcript, language):
+    prompt = f"""
 You are an AI contact center assistant. Analyze the call transcript below.
 
-Transcript:{transcript}
+Transcript:
+{transcript}
 
-Return JSON with:
+Return a JSON object with:
 - summary: 3 bullet points
 - topic: short category (e.g. Billing, Tech Support)
 - sentiment: Positive / Neutral / Negative
@@ -154,21 +156,22 @@ Return JSON with:
 Language: {language}
 """
 
-    r = requests.post(OLLAMA_URL, json={
-        "model": LLM_MODEL,
-        "prompt": prompt,
-        "stream": False
-    })
-
     try:
-        return json.loads(r.json()["response"])
+        r = requests.post(OLLAMA_URL, json={
+            "model": LLM_MODEL,
+            "prompt": prompt,
+            "stream": False
+        }, timeout=30)
+        r.raise_for_status()
+        return json.loads(r.json().get("response", "{}"))
     except Exception as e:
-        return {"error": str(e), "raw": r.text}
+        return {"error": str(e), "raw": r.text if 'r' in locals() else ""}
 
 def send_to_crm(data):
     try:
-        r = requests.post(CRM_ENDPOINT, json=data)
-        return r.status_code == 200
+        r = requests.post(CRM_ENDPOINT, json=data, timeout=15)
+        r.raise_for_status()
+        return True
     except Exception as e:
         print("CRM error:", e)
         return False
@@ -209,6 +212,23 @@ def webhook():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
+
 ```
 
+## 🧩 Conclusion
+
+Integrating AI into on-premise contact centers is not only possible — it's practical.
+
+With tools like **Whisper** and **Ollama**, you can deploy a fully local solution that handles:
+- Transcription and language detection
+- Multilingual translation
+- Summarization and topic extraction
+- Sentiment and emotion analysis
+- Automatic CRM updates
+
+This approach helps you **bridge the gap** between legacy infrastructure and modern AI capabilities — all while keeping your data secure and internal.
+
+Start small. Automate one part of your workflow. Then scale.
+
+Your contact center doesn’t need the cloud to be smart.
 
