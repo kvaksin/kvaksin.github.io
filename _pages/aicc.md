@@ -72,8 +72,8 @@ Call Recording Service ──► Webhook Endpoint
 
 ```json
 {
-  "call_id": "abc123",
-  "recording_url": "https://example.com/recordings/abc123.mp3"
+"call_id":"abc123",
+"recording_url":"https://example.com/recordings/abc123.mp3"
 }
 ```
 
@@ -89,15 +89,15 @@ Call Recording Service ──► Webhook Endpoint
 
 ```json
 {
-  "call_id": "abc123",
-  "language": "es",
-  "transcript": "Hola, tengo un problema con mi factura...",
-  "translated_transcript": "Hello, I have a problem with my invoice...",
-  "summary": ["Customer is confused about a bill.", "Asked for a refund."],
-  "topic": "Billing Issue",
-  "sentiment": "Negative",
-  "emotion": "Frustrated",
-  "timestamp": "2025-07-13T14:22:00Z"
+"call_id":"abc123",
+"language":"es",
+"transcript":"Hola, tengo un problema con mi factura...",
+"translated_transcript":"Hello, I have a problem with my invoice...",
+"summary":["Customer is confused about a bill.","Asked for a refund."],
+"topic":"Billing Issue",
+"sentiment":"Negative",
+"emotion":"Frustrated",
+"timestamp":"2025-07-13T14:22:00Z"
 }
 ```
 
