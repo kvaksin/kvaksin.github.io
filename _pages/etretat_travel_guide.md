@@ -52,7 +52,6 @@ layout: post
 ## Where to Stay
 - **Hôtel Le Rayon Vert** — A centrally located hotel right on the seafront with stunning views.
 - **Dormy House** — A refined hotel perched on the cliffs, offering panoramic views and a peaceful atmosphere.
-- **Le Lann-Bihoué** — A cozy, charming B&B-style guesthouse located near the heart of Étretat.
 
 ## Where to Shop
 - **Emmaüs Cauville-sur-Mer / Magasin** — A large secondhand store supporting a social cause. Great for vintage treasures, books, and furniture.
