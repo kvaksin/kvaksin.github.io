@@ -9,3 +9,4 @@ layout: post
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
 |  1  |   [Contact Center Migration](/pages/CCmigration)     |  
+|  2  |   [AI Contactr Center](/pages/aicc)     |  
