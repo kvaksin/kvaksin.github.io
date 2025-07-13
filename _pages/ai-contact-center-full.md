@@ -1,9 +1,9 @@
 <!--
----
+
 title: AI Contact Center
 date: 2025-07-13
 layout: post
----
+
 -->
 
 # 🤖 AI and the On-Premise Contact Center: Closing the Gap
@@ -36,13 +36,13 @@ Here’s how a full AI pipeline can be implemented on-premise:
 
 ### 1. 📦 Components Overview
 
-| Component              | Role                                                                 |
-|------------------------|----------------------------------------------------------------------|
+| Component | Role |
+|----|----|
 | **Call Recording Service** | Notifies your app when a call is finished and a recording is ready |
-| **App Backend (Flask)**     | Receives notifications, downloads recordings, runs processing pipeline |
-| **Whisper LLM**            | Transcribes audio to text & detects language                      |
-| **Ollama (Local LLM)**     | Summarizes, translates, detects topic & emotional tone            |
-| **CRM API Client**         | Sends the final output to your CRM system                          |
+| **App Backend (Flask)** | Receives notifications, downloads recordings, runs processing pipeline |
+| **Whisper LLM** | Transcribes audio to text & detects language |
+| **Ollama (Local LLM)** | Summarizes, translates, detects topic & emotional tone |
+| **CRM API Client** | Sends the final output to your CRM system |
 
 ### 2. 🏗 Enhanced High-Level Architecture
 
@@ -79,20 +79,11 @@ Call Recording Service ──► Webhook Endpoint
 
 #### ⬇ Step 2: Download the Audio
 
-- Save the file to `downloads/abc123.mp3`
+* Save the file to `downloads/abc123.mp3`
 
 #### 🧠 Step 3: Transcription & Language Detection
 
-- Whisper automatically identifies language and returns plain text.
-
-#### 🧠 Step 4: LLM Analysis (Ollama)
-
-- Generate:
-  - ✅ Summary (bulleted)
-  - ✅ Topic (classification)
-  - ✅ Sentiment (Positive / Neutral / Negative)
-  - ✅ Emotional tone (e.g. Frustrated, Calm, Confused)
-  - ✅ English translation (if original not in English)
+* Whisper automatically identifies language and returns plain text.
 
 #### 📤 Step 5: Send to CRM
 
@@ -110,24 +101,109 @@ Call Recording Service ──► Webhook Endpoint
 }
 ```
 
-### 4. 🔐 Security & Reliability
-
-- ✅ HMAC-secured webhook  
-- 🔁 Retry logic (downloads, CRM)  
-- 🔐 Encrypted at rest & in transit  
-- ⚙️ Async workers / message queue  
-- 📈 Logs + audit trail  
 
 ## 🧾 Sample Implementation with Multilingual & Emotional Analysis
 
 ```python
-# (Python Flask + Whisper + Ollama code block from previous response goes here)
+{
+from flask import Flask, request, jsonify
+import requests
+import whisper
+import json
+import os
+from datetime import datetime
+
+app = Flask(__name__)
+model = whisper.load_model("base")
+
+CRM_ENDPOINT = "https://your-crm.example.com/api/calls"
+OLLAMA_URL = "http://localhost:11434/api/generate"
+LLM_MODEL = "llama3"
+os.makedirs("downloads", exist_ok=True)
+
+def download_audio(url, call_id):
+    path = f"downloads/{call_id}.mp3"
+    r = requests.get(url)
+    with open(path, "wb") as f:
+        f.write(r.content)
+    return path
+
+def run_llm_analysis(transcript, language):
+    prompt = f"""
+You are an AI contact center assistant. Analyze the call transcript.
+
+Transcript:
+"""
+{transcript}
+"""
+
+Return JSON with:
+- summary: 3 bullet points
+- topic: short category (e.g. Billing, Tech Support)
+- sentiment: Positive / Neutral / Negative
+- emotion: main emotion (e.g. Frustrated, Calm, Angry)
+- translated_transcript: translate to English if not already
+
+Language: {language}
+"""
+
+    r = requests.post(OLLAMA_URL, json={
+        "model": LLM_MODEL,
+        "prompt": prompt,
+        "stream": False
+    })
+
+    try:
+        return json.loads(r.json()["response"])
+    except Exception as e:
+        return {"error": str(e), "raw": r.text}
+
+def send_to_crm(data):
+    try:
+        r = requests.post(CRM_ENDPOINT, json=data)
+        return r.status_code == 200
+    except Exception as e:
+        print("CRM error:", e)
+        return False
+
+@app.route("/webhook", methods=["POST"])
+def webhook():
+    payload = request.get_json()
+    call_id = payload.get("call_id")
+    url = payload.get("recording_url")
+    if not call_id or not url:
+        return jsonify({"error": "Missing fields"}), 400
+
+    try:
+        audio_path = download_audio(url, call_id)
+        result = model.transcribe(audio_path)
+        transcript = result["text"]
+        language = result["language"]
+
+        analysis = run_llm_analysis(transcript, language)
+
+        data = {
+            "call_id": call_id,
+            "language": language,
+            "transcript": transcript,
+            "translated_transcript": analysis.get("translated_transcript"),
+            "summary": analysis.get("summary"),
+            "topic": analysis.get("topic"),
+            "sentiment": analysis.get("sentiment"),
+            "emotion": analysis.get("emotion"),
+            "timestamp": datetime.utcnow().isoformat()
+        }
+
+        send_to_crm(data)
+        return jsonify({"status": "processed"}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+if __name__ == "__main__":
+    app.run(port=5000, debug=True)
+
+}
 ```
 
-## 🧩 Bonus Add-ons (Ready to Extend)
 
-- ✅ Multilingual translation via Whisper + LLM  
-- ✅ Emotional intelligence layer  
-- ✅ Dashboard to view transcripts & sentiment by call  
-- ✅ S3 or NAS support for archiving audio  
-- ✅ Database integration (e.g., PostgreSQL)
