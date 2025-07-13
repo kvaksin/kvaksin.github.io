@@ -117,8 +117,8 @@ layout: post
 
 ### Evening
 - **19:00** – Farewell dinner at **Le Lann-Bihoué** or **Dormy House restaurant**  
-  _Try Normandy cider and traditional dishes like moules marinières_
-
+  _Try Normandy cider and traditional dishes
+  
 ---
 
 ## Final Tips
