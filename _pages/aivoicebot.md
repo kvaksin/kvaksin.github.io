@@ -1,10 +1,10 @@
-<!--
 ---
 title: AI Voice Bot
 date: 2025-07-13
 layout: post
 ---
--->
+
+**Everything is described below is based on Open Source**
 
 # ☎️ Whisper Voice Bot with SIP + CRM Integration
 
@@ -190,6 +190,7 @@ This data is posted to CRM and optionally shown in a **screen pop** when the age
 - [ ] Add voice activity detection for open-mic
 - [ ] Use GPT-based NLU for better intent extraction
 - [ ] CRM webhooks to trigger post-call workflows
+- [ ] Inteligent call routing to handle different Customer intent (with analysing Customers communication. More details are [here](/pages/aicc))
 
 ---
 
