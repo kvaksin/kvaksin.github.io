@@ -76,7 +76,8 @@ We propose a transition to a **cloud-native, AI-powered CCaaS platform**  that o
 | **Total**                 | **$550,000**      | **$80,000–$200,000** |
 
 > **Potential Savings: $300K+ annually**, plus added business value through better CX.
-> **Licenses** do have same cost for both setups and would not give big difference
+
+> **Licenses** do have the same cost.
 
 ---
 
