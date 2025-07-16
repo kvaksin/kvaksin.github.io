@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Vaksins block'
+title: 'Vaksins blog'
 permalink: /
 cover: /assets/gitbook/images/Home.jpeg
 ---
