@@ -10,4 +10,5 @@ layout: post
 |:---:|:----------------------------------------------------:|
 |  1  |   [Contact Center Migration](/pages/CCmigration)     |  
 |  2  |   [AI Contactr Center](/pages/aicc)                  |  
-|  3  |   [AI Voice Bot](/pages/aivoicebot)                  |  
+|  3  |   [AI Voice Bot](/pages/aivoicebot)                  | 
+|  4 |   [How I Turned a Failing Contact Center Project Around in 6 Weeks](/pages/ccproject) |
