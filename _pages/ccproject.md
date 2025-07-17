@@ -18,7 +18,7 @@ That’s when I was asked to step in.
 
 The implementation was being handled by a newly certified Cisco UCCE Authorized Technology Provider (ATP). While the partner had solid experience working with other vendors, this was their first on-premises UCCE deployment — and the complexity quickly became overwhelming.
 
-The client, a major telecommunications company operating across several northern European countries, had high expectations. Their contact center was mission-critical, and the project involved intricate routing logic, third-party integrations, and strict compliance requirements.
+The client, a major telecommunications company operating across several European countries, had high expectations. Their contact center was mission-critical, and the project involved intricate routing logic, third-party integrations, and strict compliance requirements.
 
 The partner wasn’t prepared for how rapidly the client’s needs evolved, and without deep UCCE experience, they struggled to adapt. Miscommunication, unclear ownership, and a growing backlog of unresolved issues put the project at risk of total failure.
 
