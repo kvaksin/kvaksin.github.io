@@ -54,7 +54,7 @@ layout: post
 - **Dormy House** — A refined hotel perched on the cliffs, offering panoramic views and a peaceful atmosphere.
 
 ## Where to Shop
-- **Emmaüs Cauville-sur-Mer / Magasin** — A large secondhand store supporting a social cause. Great for vintage treasures, books, and furniture.
+- [**Emmaüs Cauville-sur-Mer / Magasin**](https://maps.app.goo.gl/Ktiupn4MJcxf3HPe7?g_st=ipc) - A large secondhand store supporting a social cause. Great for vintage treasures, books, and furniture.
 - **Cueillette et Boutique d'Octeville** and **La Ferme Dumesnil** — Both offer local goods like honey, cider, and jams.
 
 ## Where to Eat
