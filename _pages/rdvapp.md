@@ -1,3 +1,8 @@
+---
+title: Simplifying School-Parent Meeting Scheduling
+date: 2025-10-17
+layout: post
+---
 # Simplifying School-Parent Meeting Scheduling
 
 Recently, our family faced a small but common challenge. My daughter’s school announced quarterly meetings with professors through a WhatsApp parent chat. The message was sent only once — about a month before the actual event. As a result, many parents, including us, missed the meeting simply because we lost track of the announcement.
