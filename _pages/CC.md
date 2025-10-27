@@ -14,4 +14,4 @@ layout: post
 |  4 |   [How I Turned a Failing Contact Center Project Around in 6 Weeks](/pages/ccproject) |
 |  5 |   [5 Lessons I Learned from Working at Cisco](/pages/lessonlearned) |
 | 6 |  [Simplifying School-Parent Meeting Scheduling](/pages/rdvapp)|
-| 7 | [CCaaS high level comparision. Pick your own CC platform from your preferences](/pages/ccaas_comp)
+| 7 | [High-Level Comparison of Leading CCaaS Platforms](/pages/ccaas_comp)

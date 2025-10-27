@@ -1,9 +1,9 @@
-
 ---
 title: Simplifying School-Parent Meeting Scheduling
 date: 2025-10-27
 layout: post
 ---
+
 # CCaaS Platform Comparison
 
 ## Platforms: Microsoft | Zoom | Webex | Genesys | NICE | Amazon | Voiso | Luware | Five9 | Google
