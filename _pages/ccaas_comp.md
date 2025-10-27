@@ -1,10 +1,10 @@
 ---
-title: Simplifying School-Parent Meeting Scheduling
+title: High-Level Comparison of Leading CCaaS Platforms
 date: 2025-10-27
 layout: post
 ---
 
-# CCaaS Platform Comparison
+# High-Level Comparison of Leading CCaaS Platforms
 
 ## Platforms: Microsoft | Zoom | Webex | Genesys | NICE | Amazon | Voiso | Luware | Five9 | Google
 
