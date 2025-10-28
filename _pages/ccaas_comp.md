@@ -1,3 +1,8 @@
+---
+title: CCaaS Platform Comparison
+date: 2025-10-27
+layout: post
+---
 
 # CCaaS Platform Comparison
 
