@@ -4,8 +4,6 @@ date: 2025-10-27
 layout: post
 ---
 
-# CCaaS Platform Comparison
-
 ## Platforms: Microsoft | Zoom | Webex | Genesys | NICE | Amazon | Voiso | Luware | Five9 | Google
 
 Short summary of which CCaaS you would better pick for your company. You would need deeper analyses to perform and pick few for your own trial (typicaly 90 days you can play with your CCaaS for free) and pick the one, that suits you the best.
