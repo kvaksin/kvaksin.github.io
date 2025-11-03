@@ -1,12 +1,8 @@
-<!--
 ---
-title: WxCCE
-date: 2025-07-11
+title: Understanding Webex Contact Center Enterprise (WxCCE): Customers and Connectivity
+date: 2025-11-03
 layout: post
 ---
--->
-
-# Understanding Webex Contact Center Enterprise (WxCCE): Customers and Connectivity
 
 ## What is WxCCE?
 
@@ -64,19 +60,4 @@ Because WxCCE is a Cisco-hosted cloud service, enterprises must establish secure
 
 Webex Contact Center Enterprise provides a modern, cloud-based contact center platform tailored for large enterprises. By leveraging Cisco’s secure cloud infrastructure and flexible connectivity options, organizations can deliver exceptional customer experiences while maintaining control over their network, telephony, and application environments.
 
-# Network Topology Diagram
-
-![WxCCE Network Topology](wxcce_network_topology.png)
-"""
-
-# Save to file and compute MD5
-import hashlib
-
-file_path = "/mnt/data/WxCCE_Article_with_Diagram.md"
-with open(file_path, "w") as f:
-    f.write(md_content)
-
-with open(file_path, "rb") as f:
-    md5_hash = hashlib.md5(f.read()).hexdigest()
-
-file_path, md5_hash
+date: 2025-11-03

@@ -125,3 +125,5 @@ layout: post
 - Bring walking shoes and water, especially for hikes
 - Reserve restaurants in advance, especially for dinner
 - Farms and markets may close early—plan visits before 1–2 PM
+
+date: 2025-07-11

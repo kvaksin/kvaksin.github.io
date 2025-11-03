@@ -32,3 +32,5 @@ Short summary of which CCaaS you would better pick for your company. You would n
 | **Flexibility / Build-Your-Own** | Amazon Connect, Google CCAI | Great for developers, high control, but requires technical depth. |
 | **Fast Time-to-Value (Mid-Market)** | Voiso, Zoom | Simpler, modern, agile deployments. |
 | **Best for AI-Driven Innovation** | Google CCAI, NICE CXone, Genesys Cloud CX | Extensive AI roadmap and real-time agent intelligence. |
+
+date: 2025-10-27

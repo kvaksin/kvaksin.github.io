@@ -27,3 +27,5 @@ One of the most important lessons I had to learn was the value of actively build
 
 **Final Thought**
 My journey at Cisco was transformative. The lessons I learned—especially the importance of collaboration, leadership, and building strong networks—extend far beyond the workplace, influencing how I approach every stage of my career.
+
+date: 2025-09-09

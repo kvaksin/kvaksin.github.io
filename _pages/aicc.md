@@ -232,3 +232,4 @@ Start small. Automate one part of your workflow. Then scale.
 
 Your contact center doesn’t need the cloud to be smart.
 
+date: 2025-07-13

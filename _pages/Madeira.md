@@ -143,3 +143,5 @@ If you’re in a tavern mode with good food, try **“O Polar.”**
 * **Quinta do Furão (better for lunch)**: In Santana. Classic restaurant. Magnificent view and an accessible price for what it is (€30-40 p.p.). Highly recommended. Good alternative before or after doing the Levada dos Balcões, for example.
 * **Abrigo do Pastor:** On the way up to the mountains, a true farmhouse.
 * **Casa de Palha:** Beautiful restaurant of traditional Madeiran food. Located in the proverbial Boda, in São Jorge.
+
+date: 2025-02-20

@@ -62,4 +62,4 @@ Even small, real-world problems can inspire useful applications — and sometime
 
 ---
 
-*Published on [kvaksin.github.io](https://kvaksin.github.io)*
+date: 2025-10-17

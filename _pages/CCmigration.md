@@ -38,3 +38,5 @@ Migration is a **complex and costly** process. Before you decide, ask yourself:
 ## 🤝 Let’s Talk
 
 Let me know which scenario resonates with your business goals—and I’d be happy to dive deeper with you.
+
+date: 2025-07-11

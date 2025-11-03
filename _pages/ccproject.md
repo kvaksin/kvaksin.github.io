@@ -84,3 +84,5 @@ The project was formally closed as a success, and more importantly, it opened th
 - **You don’t need to say “no” — offer a better “yes”**: Explaining the reasoning behind Cisco’s architecture builds long-term trust.
 - **Automation + Integration = Real CX impact**: The caller card and CRM-linked IVR weren’t just technical wins — they made a visible difference to agents and customers.
 - **Listening before fixing**: Taking the time to fully understand the problem space upfront saved weeks of rework later.
+
+date: 2025-07-11
