@@ -270,8 +270,8 @@
 
 /* Responsive helper for page images */
 .page-image {
-    max-width: 800px;
-    width: 50%;
+    max-width: 300px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
