@@ -5,6 +5,10 @@ layout: post
 ---
 # Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity
 
+As enterprises continue their migration toward cloud-based customer experience platforms, **Cisco Webex Contact Center Enterprise (WxCCE)** provides a flexible hybrid architecture that allows organizations to integrate cloud contact center capabilities with their on-premises systems.  
+This article explains how data and voice connectivity are established between the enterprise network and the Cisco Webex CCE Data Center.
+
+---
 ## Diagram: Data Connectivity
 
 
@@ -12,11 +16,6 @@ layout: post
 <!--
 ![Data Connectivity Diagram](/assets/images/wxccecoonectivity.png = 250x250)
 -->
----
-
-As enterprises continue their migration toward cloud-based customer experience platforms, **Cisco Webex Contact Center Enterprise (WxCCE)** provides a flexible hybrid architecture that allows organizations to integrate cloud contact center capabilities with their on-premises systems.  
-This article explains how data and voice connectivity are established between the enterprise network and the Cisco Webex CCE Data Center.
-
 ---
 
 ## 1. The Foundation: Enterprise and Cloud Integration
