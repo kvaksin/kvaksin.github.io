@@ -5,8 +5,11 @@ layout: post
 ---
 ## Diagram: Data Connectivity
 
-![Data Connectivity Diagram](/assets/images/wxccecoonectivity.png = 250x250)
 
+<img src="assets/images/wxccecoonectivity.png" width=50% height=50%>
+<!--
+![Data Connectivity Diagram](/assets/images/wxccecoonectivity.png = 250x250)
+-->
 ---
 
 As enterprises continue their migration toward cloud-based customer experience platforms, **Cisco Webex Contact Center Enterprise (WxCCE)** provides a flexible hybrid architecture that allows organizations to integrate cloud contact center capabilities with their on-premises systems.  
