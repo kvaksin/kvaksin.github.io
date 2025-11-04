@@ -3,12 +3,12 @@ title: Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voic
 date: 2025-11-04
 layout: post
 ---
-# onnecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity
+# Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity
 
 ## Diagram: Data Connectivity
 
 
-<img src="/assets/images/wxccecoonectivity.png" alt="Data Connectivity Diagram" class="page-image" />
+<img src="/assets/images/wxccecoonectivity.jpg" alt="Data Connectivity Diagram" class="page-image" />
 <!--
 ![Data Connectivity Diagram](/assets/images/wxccecoonectivity.png = 250x250)
 -->
