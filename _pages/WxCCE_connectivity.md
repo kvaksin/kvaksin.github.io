@@ -6,7 +6,7 @@ layout: post
 ## Diagram: Data Connectivity
 
 
-<img src="https://kvaksin.github.io/assets/images/wxccecoonectivity.png" width=50% height=50%>
+<img src="/assets/images/wxccecoonectivity.png" alt="Data Connectivity Diagram" class="page-image" />
 <!--
 ![Data Connectivity Diagram](/assets/images/wxccecoonectivity.png = 250x250)
 -->
