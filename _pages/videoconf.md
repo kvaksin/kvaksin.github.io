@@ -1,7 +1,5 @@
-# Videoconference v2
-
 ---
-title: Simplifying School-Parent Meeting Scheduling
+title: Videoconference app
 date: 2025-11-24
 layout: post
 ---
