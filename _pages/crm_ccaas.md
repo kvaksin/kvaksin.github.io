@@ -1,5 +1,5 @@
 ---
-title: Cloud-Based CRM and CCaaS: Detailed Technical Architecture and Platform Comparison
+title: Detailed Technical Architecture and Platform Comparison
 date: 2025-11-30
 layout: post
 ---
