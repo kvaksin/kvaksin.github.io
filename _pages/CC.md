@@ -9,7 +9,7 @@ layout: post
 |  ID |                         Name                         | 
 |:---:|:----------------------------------------------------:|
 |  1  |   [Contact Center Migration](/pages/CCmigration)     |  
-|  2  |   [AI Contactr Center](/pages/aicc)                  |  
+|  2  |   [AI Contact Center](/pages/aicc)                  |  
 |  3  |   [AI Voice Bot](/pages/aivoicebot)                  | 
 |  4 |   [How I Turned a Failing Contact Center Project Around in 6 Weeks](/pages/ccproject) |
 |  5 |   [5 Lessons I Learned from Working at Cisco](/pages/lessonlearned) |
