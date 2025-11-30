@@ -18,5 +18,5 @@ layout: post
 | 8   | [Understanding Webex Contact Center Enterprise (WxCCE): Customers and Connectivity](/pages/wxcce)|
 | 9   | [Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity](/pages/WxCCE_connectivity) |
 | 10  | [Videoconferencing solution](/pages/videoconf)|
-| 11  | [Cloud-Based CRM and CCaaS: Detailed Technical Architecture and Platform Comparison](/pages/cloud_crm_ccaas)|
+| 11  | [Cloud-Based CRM and CCaaS: Detailed Technical Architecture and Platform Comparison](/pages/crm_ccaas)|
 
