@@ -11,12 +11,12 @@ layout: post
 |  1  |   [Contact Center Migration](/pages/CCmigration)     |  
 |  2  |   [AI Contact Center](/pages/aicc)                  |  
 |  3  |   [AI Voice Bot](/pages/aivoicebot)                  | 
-|  4 |   [How I Turned a Failing Contact Center Project Around in 6 Weeks](/pages/ccproject) |
-|  5 |   [5 Lessons I Learned from Working at Cisco](/pages/lessonlearned) |
-| 6 |  [Simplifying School-Parent Meeting Scheduling](/pages/rdvapp)|
-| 7 | [High-Level Comparison of Leading CCaaS Platforms](/pages/ccaas_comp)
-| 8 | [Understanding Webex Contact Center Enterprise (WxCCE): Customers and Connectivity](/pages/wxcce)|
-| 9 | [Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity](/pages/WxCCE_connectivity) |
-|10| [Videoconferencing solution](/pages/videoconf)|
-|11| [Cloud-Based CRM and CCaaS: Detailed Technical Architecture and Platform Comparison](/pages/cloud_crm_ccaas)|
+|  4  |   [How I Turned a Failing Contact Center Project Around in 6 Weeks](/pages/ccproject) |
+|  5  |   [5 Lessons I Learned from Working at Cisco](/pages/lessonlearned) |
+| 6   |  [Simplifying School-Parent Meeting Scheduling](/pages/rdvapp)|
+| 7   | [High-Level Comparison of Leading CCaaS Platforms](/pages/ccaas_comp)
+| 8   | [Understanding Webex Contact Center Enterprise (WxCCE): Customers and Connectivity](/pages/wxcce)|
+| 9   | [Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity](/pages/WxCCE_connectivity) |
+| 10  | [Videoconferencing solution](/pages/videoconf)|
+| 11  | [Cloud-Based CRM and CCaaS: Detailed Technical Architecture and Platform Comparison](/pages/cloud_crm_ccaas)|
 
