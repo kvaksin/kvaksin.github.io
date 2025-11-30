@@ -18,7 +18,7 @@ ServiceNow, Salesforce, and Zendesk differ in their architectural foundations, i
 ### CRM Platform Comparison Table
 
 | Feature Category | ServiceNow | Salesforce | Zendesk |
-|------------------|------------|------------|---------|
+|:------------------:|:------------:|:------------:|:---------:|
 | Primary Strength | Enterprise workflows, structured service management | Broad CRM scope, flexible data model, strong Service Cloud | Simple, fast digital-first ticketing |
 | Architecture Style | Workflow-centric, ITSM heritage | Highly extensible metadata-driven platform | Lightweight, API-first support |
 | Customization Depth | Extensive workflow & form modeling | Very high: objects, layouts, flows, UI | Moderate: configuration-focused |
