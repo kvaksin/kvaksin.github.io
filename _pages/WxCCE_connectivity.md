@@ -1,5 +1,5 @@
 ---
-title: Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity
+title: Connecting the Enterprise to Cisco Webex CCE. Understanding Data and Voice Connectivity
 date: 2025-11-04
 layout: post
 ---
