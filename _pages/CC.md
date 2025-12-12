@@ -14,7 +14,7 @@ layout: post
 |  4  |   [How I Turned a Failing Contact Center Project Around in 6 Weeks](/pages/ccproject) |
 |  5  |   [5 Lessons I Learned from Working at Cisco](/pages/lessonlearned) |
 | 6   |  [Simplifying School-Parent Meeting Scheduling](/pages/rdvapp)|
-| 7   | [High-Level Comparison of Leading CCaaS Platforms](/pages/ccaas_comp)
+| 7   | [High-Level Comparison of Leading CCaaS Platforms](/pages/ccaas_comp)|
 | 8   | [Understanding Webex Contact Center Enterprise (WxCCE): Customers and Connectivity](/pages/wxcce)|
 | 9   | [Connecting the Enterprise to Cisco Webex CCE: Understanding Data and Voice Connectivity](/pages/WxCCE_connectivity) |
 | 10  | [Videoconferencing solution](/pages/videoconf)|
