@@ -5,7 +5,8 @@ layout: post
 ---
 
 # Modernizing PCI DSS Compliance in the Contact Center: Why SMS Outperforms Outbound Calling
-As PCI DSS v4.0 raises expectations for how organizations handle cardholder data, many contact centers are rethinking their payment collection strategies. Traditional outbound calling campaigns—where agents manually call customers to request payment—create unnecessary compliance exposure, operational cost, and customer frustration.
+
+As PCI DSS v4.0 raises expectations for how organizations handle cardholder data, many contact centers are rethinking their payment collection strategies. Traditional outbound calling campaigns—where agents manually call customers to request payment—create unnecessary compliance exposure, operational cost, and customer frustration. 
 A growing number of organizations are now shifting to SMS‑driven payment journeys, where customers receive a secure link and complete the transaction themselves. This approach significantly reduces PCI scope while improving customer experience and operational efficiency.
 ---
 Why Outbound Calling Creates PCI DSS Challenges
@@ -27,22 +28,36 @@ Switching to SMS for payment collection transforms the process.
 ## PCI DSS Scope Reduction Diagram
 Traditional Voice Payment Flow
 --------------------------------
-Agent → Desktop → Voice System → Recording → Network → Storage
-        |________ ALL IN PCI SCOPE ________|
++---------------------------------------------------------------+    +---------------------------------------------------------------+
+|        Traditional Voice Payment Flow (In PCI DSS Scope)      |    |        SMS Payment Flow (Out of PCI DSS Scope)                |
++---------------------------------------------------------------+    +---------------------------------------------------------------+
 
-SMS Payment Flow
---------------------------------
-Customer → Secure Hosted Payment Page
-        |__ ONLY THE PAYMENT PAGE IN SCOPE __|
+   [ User Layer ]                                                    [ User Layer ]
+   ─────────────                                                    ─────────────
+   • Customer                                                       • Customer
 
-Contact Center Systems:
-- No card data
-- No recordings
-- No agent involvement
-- No desktop exposure
-- No telephony exposure
 
-Result: MASSIVE PCI DSS scope reduction
+   [ Contact Center Layer ]                                         [ Contact Center Layer ]
+   ─────────────────────────                                         ─────────────────────────
+   • Agent                                                          • Notification System (SMS)
+   • Agent Desktop                                                  • Interaction History / CRM
+   • Voice / Telephony System                                       • (No card data stored or processed)
+   • Call Recording System
+
+                                                                     [ Payment Layer ]
+   [ Infrastructure Layer ]                                          ─────────────────────────
+   ─────────────────────────                                         • Secure Hosted Payment Page
+   • Network                                                        • Payment Processor / Acquirer
+   • Storage
+   • Logging / Monitoring
+
+
+   ┌────────────────────────────────────────────────────────────┐    ┌──────────────────────────────────────────────┐
+   │      IN PCI DSS SCOPE — Cardholder Data May Be Exposed      │    │   PCI DSS SCOPE — Limited to Payment Page     │
+   └────────────────────────────────────────────────────────────┘    └──────────────────────────────────────────────┘
+
+                                                                    OUT OF PCI DSS SCOPE — No Card Data Touches
+                                                                    Contact Center Systems
 ---
 1. No Card Data Touches the Contact Center
 Customers receive a secure, tokenized payment link via SMS.
