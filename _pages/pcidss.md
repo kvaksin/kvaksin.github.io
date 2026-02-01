@@ -28,6 +28,7 @@ Outbound calls are also typically prescheduled, which means they often arrive at
 This leads to low answer rates, repeated attempts, and increased operational effort.
 
 ## PCI DSS Scope Reduction
+<img src="/assets/images/SMS-voice-comp.png" alt="PCI DSS Scope" class="page-image" />
 
 ### Traditional Voice Payment Flow
 
