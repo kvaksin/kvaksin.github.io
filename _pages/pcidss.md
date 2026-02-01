@@ -8,9 +8,8 @@ layout: post
 
 As PCI DSS v4.0 raises expectations for how organizations handle cardholder data, many contact centers are rethinking their payment collection strategies. Traditional outbound calling campaigns—where agents manually call customers to request payment—create unnecessary compliance exposure, operational cost, and customer frustration. 
 A growing number of organizations are now shifting to SMS‑driven payment journeys, where customers receive a secure link and complete the transaction themselves. This approach significantly reduces PCI scope while improving customer experience and operational efficiency.
----
-Why Outbound Calling Creates PCI DSS Challenges
 
+## Why Outbound Calling Creates PCI DSS Challenges
 Outbound payment calls often require agents to:
 
 * Request or confirm payment details verbally
@@ -27,8 +26,6 @@ Outbound calls are also typically prescheduled, which means they often arrive at
 * Unable to discuss financial matters
 
 This leads to low answer rates, repeated attempts, and increased operational effort.
-
----
 
 ## PCI DSS Scope Reduction
 
@@ -91,8 +88,6 @@ PCI DSS Scope: MINIMAL
 * Contact center systems remain out of scope
 * No card data touches agents, desktops, or telephony
 
----
-
 ### Why SMS Reduces PCI Scope
 
 Voice Flow
@@ -105,7 +100,6 @@ Voice Flow
 * Contact center fully out of scope
 * Optional fallback to outbound calling
 
----
 ### Modernization Summary
 
 Voice → SMS Transition Benefits
@@ -147,7 +141,6 @@ Automation reduces manual steps and minimizes compliance risk.
 #### 4. Better Auditability and Event Tracking
 
 Every SMS, response, and payment confirmation can be logged as structured events. This supports PCI DSS v4.0 requirements for traceability, monitoring, and evidence collection. Agents can view the full interaction history without ever handling sensitive data.
----
 
 ###A Typical PCI‑Safe SMS Payment Flow
 1. System triggers a payment request
@@ -157,7 +150,6 @@ Every SMS, response, and payment confirmation can be logged as structured events
 5. If not paid → customer is added to a follow‑up list
 6. Agents see the journey without PCI exposure
 
----
 
 ###Still Need Voice? You Can Fall Back to Outbound Calling
 SMS doesn’t eliminate the need for voice entirely.
@@ -169,4 +161,3 @@ A hybrid model works best:
 * Secondary channel: outbound calling for customers who do not respond or need assistance
 
 This ensures flexibility while keeping PCI scope minimal.
----
