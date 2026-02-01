@@ -20,4 +20,5 @@ layout: post
 | 10  | [Videoconferencing solution](/pages/videoconf)|
 | 11  | [Cloud-Based CRM and CCaaS: Detailed Technical Architecture and Platform Comparison](/pages/crm_ccaas)|
 | 12  | [Enhancing CCaaS Solutions with Donna, Dataiku, and Collibra](/pages/AI_start)|
+| 13  | [Modernizing PCI DSS Compliance in the Contact Center: Why SMS Outperforms Outbound Calling](/pages/pcidss) |
 
