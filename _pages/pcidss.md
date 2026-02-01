@@ -28,36 +28,62 @@ Switching to SMS for payment collection transforms the process.
 ## PCI DSS Scope Reduction Diagram
 Traditional Voice Payment Flow
 --------------------------------
-+---------------------------------------------------------------+    +---------------------------------------------------------------+
-|        Traditional Voice Payment Flow (In PCI DSS Scope)      |    |        SMS Payment Flow (Out of PCI DSS Scope)                |
-+---------------------------------------------------------------+    +---------------------------------------------------------------+
-
-   [ User Layer ]                                                    [ User Layer ]
-   ─────────────                                                    ─────────────
-   • Customer                                                       • Customer
-
-
-   [ Contact Center Layer ]                                         [ Contact Center Layer ]
-   ─────────────────────────                                         ─────────────────────────
-   • Agent                                                          • Notification System (SMS)
-   • Agent Desktop                                                  • Interaction History / CRM
-   • Voice / Telephony System                                       • (No card data stored or processed)
-   • Call Recording System
-
-                                                                     [ Payment Layer ]
-   [ Infrastructure Layer ]                                          ─────────────────────────
-   ─────────────────────────                                         • Secure Hosted Payment Page
-   • Network                                                        • Payment Processor / Acquirer
-   • Storage
-   • Logging / Monitoring
-
-
-   ┌────────────────────────────────────────────────────────────┐    ┌──────────────────────────────────────────────┐
-   │      IN PCI DSS SCOPE — Cardholder Data May Be Exposed      │    │   PCI DSS SCOPE — Limited to Payment Page     │
-   └────────────────────────────────────────────────────────────┘    └──────────────────────────────────────────────┘
-
-                                                                    OUT OF PCI DSS SCOPE — No Card Data Touches
-                                                                    Contact Center Systems
+1. Traditional Voice Payment Flow
+PCI DSS Scope: HIGH
+What the customer experiences
+• Receives a call at a scheduled time
+• May be in a meeting, commuting, or unavailable
+• Must verbally confirm sensitive details
+What the agent handles
+• Payment discussion
+• Authentication steps
+• Sensitive customer information
+Systems involved
+• Agent desktop
+• Telephony platform
+• Call recording
+• Network + storage
+• Monitoring and logging
+PCI Impact
+• Entire contact center environment is in scope
+• Cardholder data may be exposed during the call
+• Recordings, desktops, and telephony must be secured
+---
+2. SMS Payment Flow
+PCI DSS Scope: MINIMAL
+What the customer experiences
+• Receives an SMS anytime
+• Opens a secure payment link
+• Pays when it’s convenient and private
+What the agent handles
+• Nothing related to card data
+• Only sees interaction history (no sensitive info)
+Systems involved
+• SMS notification system
+• CRM / interaction history
+• Secure hosted payment page
+• Payment processor
+PCI Impact
+• Only the hosted payment page is in scope
+• Contact center systems remain out of scope
+• No card data touches agents, desktops, or telephony
+---
+3. Why SMS Reduces PCI Scope
+Voice Flow
+• High exposure
+• High operational effort
+• Requires securing multiple systems
+SMS Flow
+• Customer‑driven
+• PCI scope limited to payment page
+• Contact center fully out of scope
+• Optional fallback to outbound calling
+---
+4. Modernization Summary
+Voice → SMS Transition Benefits
+• Lower PCI DSS compliance burden
+• Lower operational cost
+• Higher payment comp
 ---
 1. No Card Data Touches the Contact Center
 Customers receive a secure, tokenized payment link via SMS.
