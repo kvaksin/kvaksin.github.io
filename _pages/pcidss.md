@@ -143,7 +143,7 @@ Automation reduces manual steps and minimizes compliance risk.
 
 Every SMS, response, and payment confirmation can be logged as structured events. This supports PCI DSS v4.0 requirements for traceability, monitoring, and evidence collection. Agents can view the full interaction history without ever handling sensitive data.
 
-###A Typical PCI‑Safe SMS Payment Flow
+### A Typical PCI‑Safe SMS Payment Flow
 1. System triggers a payment request
 2. SMS is sent with amount, due date, and secure payment link
 3. Customer replies YES/NO or proceeds directly to payment
