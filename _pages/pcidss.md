@@ -152,7 +152,7 @@ Every SMS, response, and payment confirmation can be logged as structured events
 6. Agents see the journey without PCI exposure
 
 
-###Still Need Voice? You Can Fall Back to Outbound Calling
+### Still Need Voice? You Can Fall Back to Outbound Calling
 SMS doesn’t eliminate the need for voice entirely.
 Some customers will still prefer or require a human follow‑up.
 
